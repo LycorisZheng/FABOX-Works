@@ -1,7 +1,10 @@
 
 # FABOX 2020 Spring
 
+Notice: Website not finished, this README.md is okay for reading.
+
 ---
+
 
 ## Project 1 Laser Cutting
 
@@ -81,6 +84,10 @@ However, the model of my shoulder was corrupted, so I cut them in the modeling s
 
 ## Project 5 Build an 2-axis machine with an actuator
 
+In this project, we work as group to build a 2-axis machine, with a pen attached as the actuator.
+
+
+
 ---
 
 ## Final Project
@@ -118,16 +125,19 @@ And connect them to the port on Arduino.
 
 For the structural, most of which is introduced in the Project1 part.
 
-I was intended to use 3D print in the project and made some componets' model like this
+I was intended to use 3D print in the project and made some componets' model like these
+![avatar](Final/box.jpg)
+![avatar](Final/plug.jpg)
 
 
 It starts well
 ![avatar](Final/Screenshot_20200623-114142.png)
-But always gives me a piece of scrap
+But always gives me a piece of scrap, for they are too small.
 ![avatar](Final/Screenshot_20200623-114202.png)
 
 So I turned to laser cutter. I draw some rings on it and cut them out, then I stick them together with hot glue. It turned out to be great.
 
+![avatar](Final/DSC_0040.JPG)
 
 
 After assembling, my target realized.
