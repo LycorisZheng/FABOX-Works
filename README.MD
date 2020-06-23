@@ -86,7 +86,7 @@ However, the model of my shoulder was corrupted, so I cut them in the modeling s
 
 In this project, we work as group to build a 2-axis machine, with a pen attached as the actuator.
 
-
+![avatar](Project5/machine.mp4_20200623_140346.544.jpg)
 
 ---
 
