@@ -49,6 +49,7 @@ Start printing
 However, due to the problem of accuracy, the flaps' shape is not so satisfying
 ![avatar](Project2/accuracyproblem.jpg)
 And got the finished work:
+![avatar](Project2/DSC_0039.JPG)
 
 ---
 
@@ -80,3 +81,55 @@ However, the model of my shoulder was corrupted, so I cut them in the modeling s
 
 ## Project 5 Build an 2-axis machine with an actuator
 
+---
+
+## Final Project
+
+For final project, as the theme is "Who am I", I built an alarm clock that forces me to keep respect to it.
+I made the clock with a RTC module, two lithium rechargeable batteries, a charge controller, a 3V to 5V converter, a buzzer for alarm, 1602 LCD screen and a servo motor.
+
+
+Meanwhile, I made use of integrated BLE for alarm setting, IMU for shock detecting.
+
+The target is that when user gentlely press the alarm button, the alarm shuts off, but if user bumps the desk to show his anger of waking him up, the alarm will detect the shock and cover the button to avoid user from stopping it.
+
+### Circuit Part
+
+Power supply: 2*400mAh Li-ion battery. When testing, the output of converter varies by voltage of li-ion battery from 5V-12V, hence it can only be plugged in to Vin but not 5V, and other components who needs 5V in have to connect from Arduino. So I soldered this parallel with the charge controller.
+![avatar](Final/DSC_0012.JPG)
+
+And it works.
+
+![avatar](Final/DSC_0015.JPG)
+
+I2C Modules: LCD1602 and TinyRTC
+
+Since I2C devices can be chained connected and differs by its address, I paralleled the modules' SCL and SDA, for the power input, they all needs 5V input, so I made serveral wires like this:
+![avatar](Final/DSC_0017.JPG)
+
+Output System: Servo motor and buzzer
+
+Thanks to the I2C module I bought gives a Vin pass through, I have the power supply for the servo motor and buzzer, I soldered them together:
+![avatar](Final/DSC_0016.JPG)
+
+And connect them to the port on Arduino.
+
+### Structural Part
+
+For the structural, most of which is introduced in the Project1 part.
+
+I was intended to use 3D print in the project and made some componets' model like this
+
+
+It starts well
+![avatar](Final/Screenshot_20200623-114142.png)
+But always gives me a piece of scrap
+![avatar](Final/Screenshot_20200623-114202.png)
+
+So I turned to laser cutter. I draw some rings on it and cut them out, then I stick them together with hot glue. It turned out to be great.
+
+
+
+After assembling, my target realized.
+![avatar](Final/DSC_0023.JPG)
+![avatar](Final/Screenshot_20200623-114754.png)
